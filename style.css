@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calci{
+    border: 7px solid rgb(190, 63, 63);
+    width: 500px;
+    height: 500px;
+    background-color: rgb(10, 52, 37);
+    display: grid;
+    grid-template-rows: 70px 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+
+#input{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    font-size: 2rem;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    
+}
+button{
+    box-shadow: inset 0px 0px 50px rgb(6, 52, 6);
+    border-radius: 90px;
+    font-size: large;
+    border: 2px solid white
+}
+button:hover{
+   
+    border: 2px solid bisque;
+    background-color: rgb(25, 127, 129);
+    color: white;
+    
+}
+
